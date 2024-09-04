@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'react-quill/dist/quill.snow.css'; // Use 'quill.bubble.css' for a minimalistic bubble theme
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

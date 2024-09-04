@@ -1,0 +1,359 @@
+
+    {
+      "home-loan":  {
+        "title": "Home Loan",
+        "HeaderImage": "https://gaviaspreview.com/wp/conult/wp-content/uploads/2021/12/bg-9.jpg",
+        "LoanImage": "https://maxcapitalindia.com/wp-content/uploads/2024/08/homeloan-1.avif",
+        "Description": "Banks and Housing Finance Companies (HFCs) offer home loans of up to 70% to 90% of the property’s value depending on the credit profiles of their loan applicant, subject to the caps on the LTV ratios set by the lenders and the RBI. The tenures of these loans can go up to 30 years. At Growlotusfintech.com, we help you compare housing loan interest rates and other features offered by top banks and HFCs and apply online for the best option available on your credit profile.",
+        "DocumentsRequired": {
+            "Eligibility Criteria":[
+                "Indian Residents, Non-Resident Indians (NRIs), and Persons of Indian Origin (PIOs)",
+                "Preferably 750 and above",
+                "18 years with some lenders setting the minimum age of 21 years",
+                "Usually, 70 years at the time of loan maturity with some lenders extending the tenure till 75 years of age",
+                "At least 2 years (for salaried)",
+                "At least 3 years (for self-employed)",
+                "At least Rs. 25,000 per month (varies across lenders & locations)",
+                "Up to 90% of property value"
+            ],
+
+            "Identity Proof": [
+                "Passport",
+                "Aadhar card",
+                "Voter ID",
+                "Driver’s license",
+                "PAN card"
+            ],
+            "Address Proof": [
+                "Utility bills (electricity, water, gas)",
+                "Rental agreement",
+                "Passport",
+                "Aadhar card",
+                "Bank statement with current address"
+            ],
+            "Income Proof": [
+                "Salary slips (last 3-6 months)",
+                "Bank statements (last 6 months)",
+                "Income tax returns (ITR) or Form 16 (last 2-3 years)"
+            ],
+            "Property Documents": [
+                "Sale agreement or allotment letter",
+                "Title deed or property ownership documents",
+                "Encumbrance certificate",
+                "Approved building plan",
+                "Property tax receipts"
+            ],
+            "Other Documents": [
+                "Passport-sized photographs",
+                "Loan application form duly filled and signed"
+            ]
+        },
+        "CompanyTermConditions":{
+            "Description1":"Applying for a home loan with Max Capital is straightforward. Visit our website and fill out the online application form, providing the necessary details and uploading required documents. Alternatively, you can visit any of our branches for in-person assistance. Our team will review your application promptly and guide you through the next steps.",
+            "Description2":"At Max Capital, we are committed to making home ownership accessible and achievable. With our comprehensive home loan solutions, you can turn your dream of owning a home into a reality. Contact us today to learn more about our home loan offerings and take the first step towards your new home."
+        }
+        
+      },
+      "personal-loan":{
+        "title": "Personal Loan",
+        "HeaderImage": "https://gaviaspreview.com/wp/conult/wp-content/uploads/2021/10/breadcrumb.jpg",
+        "LoanImage": "https://maxcapitalindia.com/wp-content/uploads/2024/08/124924.jpg.webp",
+        "Description": "At Max Capital, we understand that life is full of unexpected expenses and opportunities that require immediate financial support. Whether it’s for medical emergencies, home renovations, travel, or debt consolidation, our personal loans provide the flexibility and financial backing you need. As a trusted loan approval mediator, Max Capital connects you with the best lenders, ensuring you receive a personal loan that meets your needs at competitive rates.",
+        "DocumentsRequired": {
+            "Eligibility Criteria":[
+                "Indian Residents, Non-Resident Indians (NRIs), and Persons of Indian Origin (PIOs)",
+                "Preferably 750 and above",
+                "18 years with some lenders setting the minimum age of 21 years",
+                "Usually, 70 years at the time of loan maturity with some lenders extending the tenure till 75 years of age",
+                "At least 2 years (for salaried)",
+                "At least 3 years (for self-employed)",
+                "At least Rs. 25,000 per month (varies across lenders & locations)",
+                "Up to 90% of property value"
+            ],
+
+            "Identity Proof": [
+                "Passport",
+                "Aadhar card",
+                "Voter ID",
+                "Driver’s license",
+                "PAN card"
+            ],
+            "Address Proof": [
+                "Utility bills (electricity, water, gas)",
+                "Rental agreement",
+                "Passport",
+                "Aadhar card",
+                "Bank statement with current address"
+            ],
+            "Income Proof": [
+                "Salary slips (last 3-6 months)",
+                "Bank statements (last 6 months)",
+                "Income tax returns (ITR) or Form 16 (last 2-3 years)"
+            ],
+          
+            "Other Documents": [
+                "Passport-sized photographs",
+                "Loan application form duly filled and signed"
+            ]
+        },
+        "CompanyTermConditions":{
+            "Description1":"Applying for a personal loan with Max Capital is simple and efficient. Begin by gathering essential documents like identity proof, address proof, and income proof. Visit our website, navigate to the Personal Loan section, and fill out the online application form with accurate details. Submit your documents and wait for our team to review and verify your information.",
+            "Description2":"Upon approval, you’ll receive a loan offer with terms and conditions. Once you accept the offer, the funds will be promptly disbursed to your bank account. Our support team is always available to assist you throughout the process, ensuring a smooth and hassle-free experience."
+        }
+      },
+      "car-loan":{
+        "title": "Car Loan",
+        "HeaderImage": "https://gaviaspreview.com/wp/conult/wp-content/uploads/2021/10/breadcrumb.jpg",
+        "LoanImage": "https://maxcapitalindia.com/wp-content/uploads/2024/08/woman-choosing-car-car-showroom_1303-17618.avif",
+        "Description": "Max Capital ensures that customers have access to the best car loan options available. Our streamlined application process takes the hassle out of securing a car loan, as we handle the paperwork and negotiations, allowing customers to focus on choosing their perfect car. With competitive interest rates, flexible repayment options, and quick approvals, Max Capital makes financing a car affordable and convenient. Our commitment to transparency and personalized support ensures that customers understand their loan terms and make informed decisions. Trust Max Capital to bridge the gap between you and your dream car, making car ownership a reality with ease and confidence.",
+        "DocumentsRequired": {
+            "Eligibility Criteria":[
+                "Indian Residents, Non-Resident Indians (NRIs), and Persons of Indian Origin (PIOs)",
+                "Preferably 750 and above",
+                "18 years with some lenders setting the minimum age of 21 years",
+                "Usually, 70 years at the time of loan maturity with some lenders extending the tenure till 75 years of age",
+                "At least 2 years (for salaried)",
+                "At least 3 years (for self-employed)",
+                "At least Rs. 25,000 per month (varies across lenders & locations)",
+                "Up to 90% of property value"
+            ],
+
+            "Identity Proof": [
+                "Passport",
+                "Aadhar card",
+                "Voter ID",
+                "Driver’s license",
+                "PAN card"
+            ],
+            "Address Proof": [
+                "Utility bills (electricity, water, gas)",
+                "Rental agreement",
+                "Passport",
+                "Aadhar card",
+                "Bank statement with current address"
+            ],
+            "Income Proof": [
+                "Salary slips (last 3-6 months)",
+                "Bank statements (last 6 months)",
+                "Income tax returns (ITR) or Form 16 (last 2-3 years)"
+            ],
+          "Vehicle Details":[
+            "Proforma invoice "
+          ]
+            
+        },
+        "CompanyTermConditions":{
+            "Description1":"Applying for a car loan with Max Capital is simple. Visit our website and fill out the online application form. Upload the necessary documents, and our team will review your application promptly. You can also visit any of our branches for in-person assistance.",
+            "Description2":"At Max Capital, we are dedicated to turning your dream of owning a car into reality. With our car loan solutions, you can drive home your desired vehicle with ease and confidence. Contact us today to learn more about our car loan offerings and take the first step towards owning your dream car!"
+        }
+      },
+      "msme-loan":{
+        
+        "title": "MSME Loan",
+        "HeaderImage": "https://gaviaspreview.com/wp/conult/wp-content/uploads/2021/10/breadcrumb.jpg",
+        "LoanImage": "https://maxcapitalindia.com/wp-content/uploads/2024/08/positive-business-executives-laughing-while-reading-contract_1262-18019.avif",
+        "Description": "At Max Capital, we are committed to empowering small and medium-sized enterprises (MSMEs) with the financial support they need to thrive and expand. Our MSME loans are specifically designed to provide funding for growth, operational needs, and capital investment, helping businesses navigate challenges and seize opportunities. As a trusted loan approval mediator, Max Capital connects you with the best lenders, offering tailored loan solutions to meet the unique needs of MSMEs.",
+        "DocumentsRequired": {
+            "Identity Proof": [
+                "Passport",
+                "Aadhar card",
+                "Voter ID",
+                "Driver’s license",
+                "PAN card"
+            ],
+            "Address Proof": [
+                "Utility bills (electricity, water, gas)",
+                "Rental agreement",
+                "Passport",
+                "Aadhar card",
+                "Bank statement with current address"
+            ],
+            "Business Proof": [
+                "Business registration certificate or trade license.",
+                "Partnership deed (for partnership firms) or Memorandum and Articles of Association (for companies)",
+                "Proof of business continuity (e.g., IT returns, sales tax certificates)"
+            ],
+            "Financial Documents":[
+                "Bank statements (last 6-12 months)",
+                "Income tax returns (last 2-3 years).",
+                "Audited financial statements (profit and loss statement, balance sheet).",
+                "GST returns"
+            ],
+            "Other Documents": [
+                "Passport-sized photographs",
+                "Loan application form duly filled and signed"
+            ]
+    
+            
+        },
+        "CompanyTermConditions":{
+            "Description1":"Applying for an MSME (Micro, Small, and Medium Enterprises) loan with Max Capital is a streamlined process designed to support your business growth. Begin by collecting necessary documents such as your business registration details, financial statements, tax returns, and proof of business operations. Visit our website and head to the MSME Loan section. Fill out the online application form with accurate information about your business and its financial status. After you submit your application and documents, our team will review and verify the information.",
+            "Description2":"Upon approval, you’ll receive a loan offer with clear terms and conditions. Accept the offer, and the funds will be quickly disbursed to your business account. Our team is here to assist you throughout the application process, ensuring a hassle-free experience."
+        }
+      },
+      "unsecured-loan":{
+        "title": "UNSECURED LOAN",
+        "HeaderImage": "https://gaviaspreview.com/wp/conult/wp-content/uploads/2021/10/breadcrumb.jpg",
+        "LoanImage": "https://maxcapitalindia.com/wp-content/uploads/2024/08/loan-approved-application-form-concept_53876-125134.avif",
+        "Description": "At Max Capital, we offer Unsecured Loans designed to provide flexible financial solutions without requiring collateral. These loans are ideal for individuals and businesses seeking quick access to funds for personal expenses, emergencies, or business needs without tying up assets. As a trusted loan approval mediator, Max Capital connects you with a wide range of lenders to ensure you receive the best unsecured loan options available.",
+        "DocumentsRequired": {
+            "Identity Proof": [
+                "Passport",
+                "Aadhar card",
+                "Voter ID",
+                "Driver’s license",
+                "PAN card"
+            ],
+            "Address Proof": [
+                "Utility bills (electricity, water, gas)",
+                "Rental agreement",
+                "Passport",
+                "Aadhar card",
+                "Bank statement with current address"
+            ],
+           
+            "Income Proof": [
+                "Salary slips (last 3-6 months)",
+                "Bank statements (last 6 months)",
+                "Income tax returns (ITR) or Form 16 (last 2-3 years)"
+            ],
+            "Other Documents": [
+                "Passport-sized photographs",
+                "Loan application form duly filled and signed"
+            ]
+    
+            
+        },
+        "CompanyTermConditions":{
+            "Description1":"Applying for an unsecured loan with Max Capital is simple and hassle-free. Start by preparing your essential documents, including identity proof, address proof, and income details. Visit our website and go to the Unsecured Loan section. Complete the online application form with accurate personal and financial information. Once submitted, our team will review your application and documentation",
+            "Description2":"After verification, you will receive a loan offer detailing the terms and conditions. Upon accepting the offer, the funds will be promptly disbursed to your account. Our support team is available to assist you throughout the process, ensuring a smooth and efficient experience."
+        }
+      },
+      "business-loan":{
+        "title": "BUSINESS LOAN",
+        "HeaderImage": "https://gaviaspreview.com/wp/conult/wp-content/uploads/2021/10/breadcrumb.jpg",
+        "LoanImage": "https://maxcapitalindia.com/wp-content/uploads/2024/08/loan-approved-application-form-concept_53876-125134.avif",
+        "Description": "At Max Capital, we offer Unsecured Loans designed to provide flexible financial solutions without requiring collateral. These loans are ideal for individuals and businesses seeking quick access to funds for personal expenses, emergencies, or business needs without tying up assets. As a trusted loan approval mediator, Max Capital connects you with a wide range of lenders to ensure you receive the best unsecured loan options available.",
+        "DocumentsRequired": {
+            "Identity Proof": [
+                "Passport",
+                "Aadhar card",
+                "Voter ID",
+                "Driver’s license",
+                "PAN card"
+            ],
+            "Address Proof": [
+                "Utility bills (electricity, water, gas)",
+                "Rental agreement",
+                "Passport",
+                "Aadhar card",
+                "Bank statement with current address"
+            ],
+    
+            "Business Proof": [
+                "Business registration certificate or trade license.",
+                "Partnership deed (for partnership firms) or Memorandum and Articles of Association (for companies)",
+                "Proof of business continuity (e.g., IT returns, sales tax certificates)"
+            ],
+            "Financial Documents":[
+                "Bank statements (last 6-12 months)",
+                "Income tax returns (last 2-3 years).",
+                "Audited financial statements (profit and loss statement, balance sheet).",
+                "GST returns"
+            ],
+            "Other Documents": [
+                "Passport-sized photographs",
+                "Loan application form duly filled and signed"
+            ]
+    
+            
+        },
+        "CompanyTermConditions":{
+            "Description1":"Applying for an unsecured loan with Max Capital is simple and hassle-free. Start by preparing your essential documents, including identity proof, address proof, and income details. Visit our website and go to the Unsecured Loan section. Complete the online application form with accurate personal and financial information. Once submitted, our team will review your application and documentation",
+            "Description2":"After verification, you will receive a loan offer detailing the terms and conditions. Upon accepting the offer, the funds will be promptly disbursed to your account. Our support team is available to assist you throughout the process, ensuring a smooth and efficient experience."
+        }
+      },
+      "loan-against-property":{
+        "title": "LOAN AGAINST PROPERTY",
+        "HeaderImage": "https://gaviaspreview.com/wp/conult/wp-content/uploads/2021/10/breadcrumb.jpg",
+        "LoanImage": "https://maxcapitalindia.com/wp-content/uploads/2024/08/mortgage-contract-house-figurine_23-2147737962.avif",
+        "Description": "At Max Capital, we offer Loan Against Property (LAP) solutions that allow you to leverage the value of your property to secure funding for various financial needs. Whether you need funds for personal expenses, business expansion, or major investments, our loan against property provides a flexible and cost-effective solution. As a trusted loan approval mediator, Max Capital connects you with a range of lenders to ensure you get the best terms and rates available.",
+        "DocumentsRequired": {
+            "Identity Proof": [
+                "Passport",
+                "Aadhar card",
+                "Voter ID",
+                "Driver’s license",
+                "PAN card"
+            ],
+            "Address Proof": [
+                "Utility bills (electricity, water, gas)",
+                "Rental agreement",
+                "Passport",
+                "Aadhar card",
+                "Bank statement with current address"
+            ],
+    
+            "Icome Proof": [
+                "Salary slips (last 3-6 months)",
+                "Bank statements (last 6 months)",
+                "Income tax returns (ITR) or Form 16 (last 2-3 years).",
+                "Employment letter or offer letter from the employer.",
+                "Business proof (for self-employed individuals), such as business registration certificate, profit and loss statement, and balance sheet."
+            ],
+          
+            "Other Documents": [
+                "Passport-sized photographs",
+                "Loan application form duly filled and signed"
+            ]
+    
+            
+        },
+        "CompanyTermConditions":{
+            "Description1":"Applying for a loan against property with Max Capital is a straightforward process designed to provide you with quick access to funds. Begin by preparing key documents, including property ownership documents, proof of income, and identity verification. Visit our website and go to the Loan Against Property section. Complete the online application form with accurate details about the property and your financial situation. Once submitted, our team will review and verify your application and property documents.",
+            "Description2":"After approval, you will receive a loan offer with detailed terms and conditions. Accept the offer, and the funds will be swiftly disbursed to your account. Our support team is available to assist you throughout the process, ensuring a smooth and efficient experience."
+        }
+      },
+      "used-car-loan":{
+        "title": "USED CAR LOAN",
+        "HeaderImage": "https://gaviaspreview.com/wp/conult/wp-content/uploads/2021/10/breadcrumb.jpg",
+        "LoanImage": "https://maxcapitalindia.com/wp-content/uploads/2024/08/portrait-car-salesman_23-2148130720.avif",
+        "Description": "At Max Capital, we understand that buying a Used Car can be a practical and cost-effective choice. Our used car loans are designed to provide you with the financial support you need to purchase a pre-owned vehicle. As a trusted loan approval mediator, Max Capital connects you with a variety of lenders to offer tailored financing solutions for used car purchases, ensuring you get the best terms and rates available.",
+        "DocumentsRequired": {
+            "Identity Proof": [
+                "Passport",
+                "Aadhar card",
+                "Voter ID",
+                "Driver’s license",
+                "PAN card"
+            ],
+            "Address Proof": [
+                "Utility bills (electricity, water, gas)",
+                "Rental agreement",
+                "Passport",
+                "Aadhar card",
+                "Bank statement with current address"
+            ],
+    
+            "Icome Proof": [
+                "Salary slips (last 3-6 months)",
+                "Bank statements (last 6 months)",
+                "Income tax returns (ITR) or Form 16 (last 2-3 years).",
+                "Employment letter or offer letter from the employer.",
+                "Business proof (for self-employed individuals), such as business registration certificate, profit and loss statement, and balance sheet."
+            ],
+          
+            "Vechicle Documents": [
+                "Proforma invoice or purchase agreement from the seller",
+                "Vehicle registration certificate",
+                "Insurance papers"
+            ]
+    
+            
+        },
+        "CompanyTermConditions":{
+            "Description1":"Applying for a used car loan with Max Capital is designed to be quick and easy. Start by gathering essential documents, such as identity proof, address proof, income statements, and details about the used car you wish to purchase. Visit our website and navigate to the Used Car Loan section. Complete the online application form with accurate personal and vehicle information. After submitting your application and required documents, our team will review and verify them. Once approved, you will receive a loan offer with clear terms and conditions. Accept the offer, and the funds will be promptly disbursed to facilitate your car purchase. Our support team is here to assist you throughout the process, ensuring a smooth and hassle-free experience.",
+            "Description2":"After approval, you will receive a loan offer with detailed terms and conditions. Accept the offer, and the funds will be swiftly disbursed to your account. Our support team is available to assist you throughout the process, ensuring a smooth and efficient experience."
+        }
+      }
+}

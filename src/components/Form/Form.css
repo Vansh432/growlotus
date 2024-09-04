@@ -1,0 +1,92 @@
+#formMainContainer{
+
+  position: fixed;
+  width: calc(100%);
+  height: 100%;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  visibility: hidden;
+}
+.form-container .cancelForm{
+position: absolute;
+top: 10px;
+border-radius: 50%;
+right:20px;   
+cursor: pointer;
+}
+.form-container {
+    position: relative;
+    width:80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  #headerForm{
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:#ffc700;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  select{
+    margin-top: 0;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #f39c12;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e67e22;
+  }
+  
+  .success-message {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+
+  @media screen and (max-width:480px){
+    #headerForm{
+      font-size: 1rem;
+    }
+    .cancelForm{
+      width: 20px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right:-10px;  
+    }
+  }
