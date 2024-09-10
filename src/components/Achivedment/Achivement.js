@@ -40,7 +40,7 @@ const events = [
     {
         date: "2023",
         icon: <FaGift className="text-4xl text-[#fff]" />,
-        description: "In 2023, Grow Lotus Fintech was officially incorporated under the Ministry of Corporate Affairs (MCA) as Grow Lotus Fintech Private Limited. This formal recognition marked a new chapter in our evolution, affirming our commitment to providing high-quality financial services while ensuring compliance with regulatory standards. The incorporation reflects our growth and dedication to upholding the highest standards in the financial industry.",
+        description: "In 2023, Grow Lotus Fintech was honored with the prestigious Super Indian Award in Lucknow, Uttar Pradesh. This recognition underscores the company's excellence and leadership in the fintech sector, celebrating its continuous innovation and dedication to making a positive impact on the financial landscape in India.",
     },
     {
         date: "2023",
@@ -97,12 +97,15 @@ export default function Timeline() {
             <div>
             <div className="flex  justify-center  p-[20px] rounded-[10px] " style={{ border: "4px solid transparent", borderImage: `linear-gradient( #ffd700, lightgreen)`, borderImageSlice: "1" }}>
             <div className="w-[50%] h-[100%] flex justify-center items-center">
-            <h1 className="text-[#000] text-[1.5rem] pl-[0px] font-[600] text-[#003c07]">Awarded <span className="text-[3.5rem] text-[#ffd700] block leading-[60px] "> Prestigious
+            <div>
+            <h1 className="text-[#000] text-[1.5rem] pl-[0px] font-[600] text-[#003c07] mb-[30px]">Awarded <span className="text-[3.5rem] text-[#ffd700] block leading-[60px]  "> Prestigious
 Super Indian Award </span>
 <span className="font-[600]">Lucknow, Uttar Pradesh
 
 2023</span></h1>
-<p></p>
+<p>In 2023, Grow Lotus Fintech was honored with the prestigious Super Indian Award in Lucknow, Uttar Pradesh. This recognition underscores the company's excellence and leadership in the fintech sector, celebrating its continuous innovation and dedication to making a positive impact on the financial landscape in India.
+</p>
+</div>
 </div>
 <div className="w-[50%] flex justify-end items-center">
                 <video  className="w-[90%] h-[350px] object-cover " controls src="https://growlotusfintech.com/wp-content/uploads/2024/07/WhatsApp-Video-2024-07-02-at-19.23.14_bd54e672.mp4">
