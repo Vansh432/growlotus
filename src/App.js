@@ -20,6 +20,9 @@ import BlogPage from "./components/BlogPage/BlogPage.jsx";
 import ServiceDetail from "./components/ServiceDetail/ServiceDetail.jsx";
 import Careers from "./components/Careers/Careers.jsx";
 import EmiCalulator from'./components/EmiCalculator/EmiCalc.js';
+import Privacy from './components/PrivacyPolicy/Privacy'
+import TermCondition from './components/Term&Condition/TermCondition.js'
+import Achivement from './components/Achivedment/Achivement.js'
 
 
 function App() {
@@ -40,7 +43,7 @@ function App() {
               <EmiCalulator/>
               <WhyChoose />
               <OurServices />
-         
+              <Achivement />
             </div>
             <About />
             <Testimonial />
@@ -80,6 +83,27 @@ function App() {
           <>
             <div className="leftRightPadding" style={{paddingTop:"90px"}}>
               <ContactUs />
+            </div>
+          </>
+        } />
+            <Route path="/termcondition" element={
+          <>
+            <div className="leftRightPadding" style={{paddingTop:"90px"}}>
+              <TermCondition />
+            </div>
+          </>
+        } />
+        <Route path="/privacy" element={
+          <>
+            <div className="leftRightPadding" style={{paddingTop:"90px"}}>
+              <Privacy />
+            </div>
+          </>
+        } />
+         <Route path="/achivements" element={
+          <>
+            <div className="leftRightPadding" style={{paddingTop:"90px"}}>
+            
             </div>
           </>
         } />

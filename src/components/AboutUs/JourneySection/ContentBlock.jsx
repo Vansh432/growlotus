@@ -20,7 +20,7 @@ const ContentBlock = ({ index, title, description, imageUrl }) => {
             <h4>{title}</h4>
             <p>{description}</p>
           </div>
-          <img src={imageUrl} alt={title} className="content-image" />
+          {index==3?(<img src={imageUrl} alt={title}  width="250x"  className="content-image" />):(<img src={imageUrl} alt={title}   className="content-image" />)}
         </>
       )}
     </div>

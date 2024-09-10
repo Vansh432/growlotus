@@ -119,7 +119,7 @@ const ServiceDetail = () => {
       try {
         const response = await fetch('https://growlotusfintech.in/growLotusMain/api/applyloan', {
           method: 'POST',
-          headers: {
+          headers: { 
             'Content-Type': 'application/json',
           },
           body: JSON.stringify(formData),
@@ -285,6 +285,7 @@ const ServiceDetail = () => {
                 id="profile"
                 value={formData.profile}
                 onChange={handleChange}
+                className="mb-0"
               >
                 <option value="">Select Profile</option>
                 <option value="Business">Business</option>

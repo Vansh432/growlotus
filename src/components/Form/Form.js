@@ -123,6 +123,7 @@ const MultiStepForm = ({ show, isToggleForm }) => {
                 id="profile"
                 value={formData.profile}
                 onChange={handleChange}
+                className="mb-0"
               >
                 <option value="">Select Profile</option>
                 <option value="Business">Business</option>

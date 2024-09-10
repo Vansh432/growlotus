@@ -39,20 +39,20 @@ const MortgageCalculator = () => {
                 <div className='w-[49%] max-sm:w-[100%]'>
                     <div className='mb-[30px]'>
                         <label className='text-[18px] font-[700] p-0 m-0'>Loan Amount</label>
-                        <input className='m-0 pl-0'
+                        <input className='m-0 pr-0'
                             type="range"
                             min="100000"
                             max="500000000"
                             value={loanAmount}
                             onChange={(e) => setLoanAmount(Number(e.target.value))}
-                        />
+                          />
                         <div className='text-[20px]  border-[1px] border-[#fff] p-[5px_10px] bg-[#fff] rounded-[5px] w-fit'>₹{loanAmount.toLocaleString()}</div>
                     </div>
 
                     <div className='mb-[30px]'>
                         <label className='text-[18px] font-[700] p-0 m-0'>Interest Rate</label>
                         <input
-                        className='m-0 pl-0'
+                        className='m-0 pr-0'
                             type="range"
                             min="1"
                             max="15"
@@ -66,7 +66,7 @@ const MortgageCalculator = () => {
                     <div className='mb-[30px]'> 
                         <label className='text-[18px] font-[700] p-0 m-0'>Loan Period</label>
                         <input
-                        className='m-0 pl-0' 
+                        className='m-0 pr-0' 
                             type="range"
                             min="5"
                             max="40"
@@ -94,11 +94,6 @@ const MortgageCalculator = () => {
                         </div>
                     </div>
 
-                    <div style={{ marginTop: '20px' }}>
-                        <button style={{ padding: '10px 20px', backgroundColor: '#007bff', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
-                        Apply Now
-                        </button>
-                    </div>
                 </div>
             </div>
         </div>

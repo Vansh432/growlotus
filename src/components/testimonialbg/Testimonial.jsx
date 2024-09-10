@@ -124,17 +124,7 @@ const Testimonial = () => {
         <img className="ornament2" src={ornament} alt="" srcset="" />
         <img className="pointImage2" src={testimonialside} alt="" srcset="" />
         </div>
-        <div className="testimonial-footer">
-          {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              className={`testimonial-photo ${
-                activeSlide === index ? "active" : ""
-              }`}
-              style={{ backgroundImage: `url(${testimonial.photo})` }}
-            />
-          ))}
-        </div>
+       
       </div>
     </>
   );

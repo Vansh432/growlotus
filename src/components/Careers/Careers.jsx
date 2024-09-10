@@ -90,13 +90,13 @@ function Careers() {
           <p>
             <span className="text-[#FFC700]">At Grow Lotus</span>, we believe that our people are our greatest asset...
           </p>
-          <p className="mt-4 font-semibold">Mobile/Phone No.: +91-900-900-7352</p>
-          <p className="font-semibold">Email ID: website@maxcapitalindia.com</p>
+          <p className="mt-4 font-semibold">Mobile/Phone No.: 1800 180 1800</p>
+          <p className="font-semibold">Email ID: Info@growlotusfintech.com</p>
         </div>
       </div>
 
-      <div className="p-6 bg-gray-100 w-[50%] max-sm:w-[100%] rounded-lg mt-[30px] shadow-lg mx-auto m-0" style={{margin:0}}>
-        <h2 className="text-2xl font-bold mb-4">Join Our Team</h2>
+      <div className="p-6  w-[50%] max-sm:w-[100%] rounded-lg mt-[30px] shadow-lg mx-auto m-0" style={{margin:0}}>
+        <h2 className="text-2xl font-bold mb-4 text-[#ffc804]">Join Our Team</h2>
         <p className="mb-6">We're always looking for passionate, talented individuals to join our growing team.</p>
         <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-2">
           <div className="flex flex-col">

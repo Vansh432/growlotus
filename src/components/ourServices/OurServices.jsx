@@ -51,7 +51,7 @@ const OurServices = () => {
   return (
     <>
       <div className="our-services" id="Services">
-        <h2>Our Services</h2>
+        <h2 className="text-[2rem] text-center text-[#000] font-bold  uppercase">Our Services</h2>
         <p className="description">
           At Grow Lotus Fintech Private Limited, we offer a comprehensive range
           of financial services designed to meet your unique needs. Our tailored

@@ -12,32 +12,37 @@ const WhyChoose = () => {
   const card2 = useRef(null);
   const card3=useRef(null);
   const card4=useRef(null);
+
+  
   function changeAnimation(card, val) {
     gsap.from(card.current, {
       x: -val,
-      duration: 1,
-      delay: 0.4,
+      opacity: 0,
+      duration: 0.8, // Shorter duration for quicker transitions
+      ease: "power2.out", // Use a more performant easing function
       scrollTrigger: {
-        trigger: card.current, 
+        trigger: card.current,
         start: "top 90%",
-        end:"bottom top"
+        end: "bottom top",
+        toggleActions: "play none none none",
       },
     });
   }
+  
 
   useGSAP(() => {
-    changeAnimation(card1, 700);
-    changeAnimation(card2, -700);
-    changeAnimation(card3, 700);
-    changeAnimation(card4, -700);
+    changeAnimation(card1, 200);
+    changeAnimation(card2, -200);
+    changeAnimation(card3, 200);
+    changeAnimation(card4, -200);
   }, []);
 
   return (
-    <div className="why-choose-us">
-      <h2>Why Choose Us</h2>
+    <div className="why-choose-us" style={{willChange: "transform, opacity"}}>
+      <h2 className="text-[2rem] text-center text-[#000] font-bold  uppercase">Why Choose Us</h2>
       <div className="timeline">
         <div className="timeline-item flex justify-between items-center w-[100%]" style={{ paddingLeft: "0px" }}>
-          <div className="content w-[48%]" ref={card1}>
+          <div className="content w-[48%] max-sm:w-[100%]" ref={card1}>
             <h3>
               <span className="number">01</span>
             </h3>
@@ -47,15 +52,15 @@ const WhyChoose = () => {
               customized solutions that align with your goals.
             </p>
           </div>
-          <div className="w-[48%] h-[279px] ">
-            <img src={personalize} className="w-[100%] h-[100%] object-cover rounded-[10px]"  alt="Personalized Approach"/>
+          <div className="w-[48%] h-[279px]  max-sm:hidden">
+            <img src={experts}  loading="lazy" className="w-[100%] h-[100%]  object-cover rounded-[10px] max-sm:hidden"  alt="Personalized Approach"/>
           </div>
         </div>
         <div className="timeline-item flex justify-between items-center w-[100%]" style={{ paddingRight: "0px" }}>
-        <div className="w-[48%] h-[279px] ">
-            <img src={experts} className="w-[100%] h-[100%] object-cover rounded-[10px]"  alt="Personalized Approach"/>
+        <div className="w-[48%] h-[279px] max-sm:hidden"> 
+            <img src={experts}  loading="lazy" className="w-[100%] h-[100%] object-cover rounded-[10px] max-sm:hidden"  alt="Expertise You Can Trust"/>
           </div>
-          <div className="content w-[48%]" ref={card2}>
+          <div className="content w-[48%] max-sm:w-[100%]" ref={card2}>
             <h3>
               <span className="number">02</span>
             </h3>
@@ -67,7 +72,7 @@ const WhyChoose = () => {
           </div>
         </div>
         <div className="timeline-item flex justify-between items-center w-[100%]" style={{ paddingLeft: "0px" }}>
-          <div className="content w-[48%]" ref={card3}>
+          <div className="content w-[48%] max-sm:w-[100%]" ref={card3}>
             <h3>
               <span className="number">03</span>
             </h3>
@@ -78,15 +83,15 @@ const WhyChoose = () => {
               needs.
             </p>
           </div>
-          <div className="w-[48%] h-[279px] ">
-            <img src={compressive} className="w-[100%] h-[100%] object-cover rounded-[10px]"  alt="Personalized Approach"/>
+          <div className="w-[48%] h-[279px]  max-sm:hidden">
+            <img src={experts}  loading="lazy" className="w-[100%] h-[100%] object-cover rounded-[10px]  max-sm:hidden"  alt="Comprehensive Services"/>
           </div>
         </div>
         <div className="timeline-item  flex justify-between items-center w-[100%]" style={{ paddingRight: "0px" }}>
-        <div className="w-[48%] h-[279px] ">
-            <img src={"https://t4.ftcdn.net/jpg/07/62/27/19/240_F_762271900_yEKw7TGpOKgqKzPKFysARfzGdKkBohpL.jpg"} className="w-[100%] h-[100%] object-cover rounded-[10px]"  alt="Personalized Approach"/>
+        <div className="w-[48%] h-[279px]  max-sm:hidden">
+            <img src={experts}   loading="lazy" className="w-[100%] h-[100%] object-cover rounded-[10px]  max-sm:hidden"  alt="Client-Centric Focus"/>
           </div>
-          <div className="content  w-[48%]" ref={card4}>
+          <div className="content  w-[48%] max-sm:w-[100%]" ref={card4}>
             <h3>
               <span className="number" >04</span>
             </h3>

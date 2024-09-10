@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Footer.css";
 import { playstore , applestore , qrfooter , footerlogo , facebook , linkdin , insta, location, mail, call } from '../../assets/index.js';
-
+import { Link, NavLink } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
@@ -28,11 +28,12 @@ const Footer = () => {
           <div className="quick-links rightContentFooter">
             <h3>QUICK LINKS</h3>
             <ul>
-              <li>Service</li>
-              <li>About Us</li>
-              <li>Contact Us</li>
-              <li>Team</li>
-              <li>Career</li>
+             <Link to="/about"> <li>About Us</li></Link>
+              <Link to="/contact"><li>Contact Us</li></Link>
+            
+              <Link to="/careers"> <li>Career</li></Link>
+              <NavLink to="/termcondition"> <li>Term & Condition</li></NavLink>
+              <NavLink to="/privacy"><li>Privacy Policy</li></NavLink>
             </ul>
           </div>
           <div className="connect">
@@ -57,9 +58,11 @@ const Footer = () => {
           
           <div className="information">
             <h3>INFORMATION</h3>
-            <p><span className="info-icon"><img src={call} alt="" /></span> (+91) 123456789</p>
-            <p><span className="info-icon"><img src={mail} alt="" /></span> abc@gmail.com</p>
-            <p><span className="info-icon"><img src={location} alt=""  width={"60px"}/></span> 2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+           <NavLink to=""><p><span className="info-icon"><img src={call} alt="" /></span> 1800 180 1800</p></NavLink> 
+            <p><span className="info-icon"><img src={mail} alt="" /></span>Info @growlotusfintech.com</p>
+            <p><span className="info-icon"><img src={location} alt=""  width={"60px"}/></span>302, 3rd Floor, Global Foyer Mall
+Golf Course Road, Gurugram
+Haryana, India 122009</p>
           </div>
         </div>
       </div>
