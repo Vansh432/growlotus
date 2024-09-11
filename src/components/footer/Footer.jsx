@@ -1,8 +1,15 @@
 import React from 'react';
 import "./Footer.css";
+import { useEffect } from 'react';
 import { playstore , applestore , qrfooter , footerlogo , facebook , linkdin , insta, location, mail, call } from '../../assets/index.js';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink,useLocation } from 'react-router-dom';
 const Footer = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
     <footer className="footer">
