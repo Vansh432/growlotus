@@ -5,10 +5,10 @@ export default function Privacy(){
         <div className="privacy">
         <ImageSection />
         <div className="px-[30px] py-[30px]">
-        <header class="bg-blue-600 text-white py-6 bg-[#FFC804] rounded-[10px] ">
+        <header class=" text-white py-6 bg-[#FFC804] rounded-[10px] ">
         <div class="container mx-auto px-4 bg-[#FFC804] text-[#fff]">
             <h1 class="text-4xl font-bold text-[1.9rem]">Privacy Policy for Grow Lotus Fintech Private Limited</h1>
-            <p class="mt-2 text-lg text-[100] text-[1.1rem] tracking-[.6px] text-[#fff]"><strong>Effective Date</strong>: [Insert Date]</p>
+           
         </div>
     </header>
 
@@ -98,7 +98,7 @@ export default function Privacy(){
         </section>
     </main>
 
-    <footer class="bg-blue-600 text-white text-center py-6 text-[#fff]  rounded-[10px] bg-[#FFC804] tracking-[.7px]">
+    <footer class="text-white text-center py-6 text-[#fff]  rounded-[10px] bg-[#FFC804] tracking-[.7px]">
         <p className="text-[#fff]">By using our website, you consent to the collection and use of your personal information as described in this Privacy Policy.</p>
     </footer>
         </div>
