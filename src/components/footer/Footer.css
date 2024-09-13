@@ -25,7 +25,9 @@
   padding: 0 15px;
   flex-basis: 19%;
 }
-
+#addressOffice{
+  width: 253px;
+}
 .logo {
   width: 100px;
   margin-bottom: 15px;
@@ -41,6 +43,7 @@
   margin-top: 13px;
 }
 .rightContentFooter{
+  padding-right: 0;
   padding-top: 43px;
 }
 .app-info,
