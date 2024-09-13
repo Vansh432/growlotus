@@ -23,6 +23,7 @@ import EmiCalulator from'./components/EmiCalculator/EmiCalc.js';
 import Privacy from './components/PrivacyPolicy/Privacy'
 import TermCondition from './components/Term&Condition/TermCondition.js'
 import Achivement from './components/Achivedment/Achivement.js'
+import IBC from "./components/IBC_Form/IBC.jsx";
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <div className="leftRightPadding" style={{boxShadow: "0 0 5px #9c9999",position:"fixed",width:"100%",background:"#fff",zIndex:"1000"}}>
         <Navbar /> 
       </div>
+      <IBC />
       <Routes>
         <Route path="/" element={
           <>

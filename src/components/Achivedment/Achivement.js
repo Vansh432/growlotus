@@ -66,7 +66,7 @@ export default function Timeline() {
     }
     return (<>
 
-        <div className="timeline-container py-10 text-white">
+        <div className="timeline-container py-10 w-full text-white">
             <h1 className="text-[2rem] text-center text-[#000] font-bold  uppercase">Achivements </h1>
             <p className="mb-[50px] w-[85%] m-auto text-center text-[#575757]">Grow Lotus Fintech has consistently broken new ground in the fintech industry, setting benchmarks for innovation and customer service. Our early adoption of cutting-edge technologies has positioned us as leaders in the financial technology sector.</p>
             <div className="container mx-auto">

@@ -8,7 +8,7 @@ export default function Privacy(){
         <header class="bg-blue-600 text-white py-6 bg-[#FFC804] rounded-[10px] ">
         <div class="container mx-auto px-4 bg-[#FFC804] text-[#fff]">
             <h1 class="text-4xl font-bold text-[1.9rem]">Privacy Policy for Grow Lotus Fintech Private Limited</h1>
-            <p class="mt-2 text-lg text-[100] text-[1.1rem] tracking-[.6px] text-[#fff]"><strong>Effective Date</strong>: [Insert Date]</p>
+           {/* <p class="mt-2 text-lg text-[100] text-[1.1rem] tracking-[.6px] text-[#fff]"><strong>Effective Date</strong>: [Insert Date]</p> */}
         </div>
     </header>
 

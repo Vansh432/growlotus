@@ -32,3 +32,11 @@ padding-top: 90px;
     margin-top: 65px;
   }
 }
+
+.banner,.service,.service2,.timeline-container,.emiCalc,.why-choose-us,.our-services,.about-content{
+	padding:0px 50px;
+}
+
+/* .timeline-container{
+  padding: 0px;
+} */
