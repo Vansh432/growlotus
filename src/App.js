@@ -51,7 +51,7 @@ function App() {
         } />
         <Route path="/service" element={
           <>
-            <div className="leftRightPadding" style={{paddingTop:"80px"}}>
+            <div className="leftRightPadding leftContainer" style={{paddingTop:"80px"}}>
               <ServicePage />
             </div>
           </>
@@ -60,56 +60,56 @@ function App() {
             <Route path="/service/:serviceName" element={<ServiceDetail />} />
         <Route path="/blog" element={
           <>
-            <div className="leftRightPadding" style={{paddingTop:"90px"}}>
+            <div className="leftRightPadding leftContainer" style={{paddingTop:"90px"}}>
               <Blog />
             </div>
           </>
         } />
          <Route path="/blog/:id" element={
           <>
-            <div className="leftRightPadding" style={{paddingTop:"90px"}}>
+            <div className="leftRightPadding leftContainer" style={{paddingTop:"90px"}}>
               <BlogPage />
             </div>
           </>
         } />
         <Route path="/about" element={
           <>
-            <div className="leftRightPadding" style={{paddingTop:"80px"}}>
+            <div className="leftRightPadding leftContainer" style={{paddingTop:"80px"}}>
             <AboutUss/>
                           </div>
           </>
         } />
         <Route path="/contact" element={
           <>
-            <div className="leftRightPadding" style={{paddingTop:"90px"}}>
+            <div className="leftRightPadding leftContainer" style={{paddingTop:"90px"}}>
               <ContactUs />
             </div>
           </>
         } />
             <Route path="/termcondition" element={
           <>
-            <div className="leftRightPadding" style={{paddingTop:"90px"}}>
+            <div className="leftRightPadding leftContainer" style={{paddingTop:"90px"}}>
               <TermCondition />
             </div>
           </>
         } />
         <Route path="/privacy" element={
           <>
-            <div className="leftRightPadding" style={{paddingTop:"90px"}}>
+            <div className="leftRightPadding leftContainer" style={{paddingTop:"90px"}}>
               <Privacy />
             </div>
           </>
         } />
          <Route path="/achivements" element={
           <>
-            <div className="leftRightPadding" style={{paddingTop:"90px"}}>
+            <div className="leftRightPadding leftContainer" style={{paddingTop:"90px"}}>
             
             </div>
           </>
         } />
          <Route path="/careers" element={
           <>
-            <div className="leftRightPadding" style={{paddingTop:"90px"}}>
+            <div className="leftRightPadding leftContainer" style={{paddingTop:"90px"}}>
               <Careers />
             </div>
           </>

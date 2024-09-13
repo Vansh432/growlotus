@@ -27,8 +27,8 @@ const ContactInfo = () => {
           <h3>Office Address</h3>
           <p>Visit our location in real life</p>
           <a >302, 3rd Floor, <br/> Global Foyer Mall
-Golf Course Road, Gurugram
-Haryana, <br/>India 122009</a>
+Golf Course Road, <br/> Gurugram
+Haryana,India 122009</a>
         </div>
       </div>
     </>

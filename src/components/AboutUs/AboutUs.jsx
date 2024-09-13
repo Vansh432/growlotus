@@ -11,7 +11,7 @@ import Subscription from "./Subscription/Subscription";
 const AboutUss = () => {
   return (
     <>
-      <div className="about-us" >
+      <div className="about-us flex flex-col items-center" >
       <ImageSection />
 
       <div className="px-[20px]">
