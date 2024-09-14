@@ -79,7 +79,7 @@ export default function Timeline() {
                             <div className={`absolute h-[3px] w-[45%] max-sm:hidden ${index % 2 === 0 ? "left-[28%]" : "left-[32%]"} bg-[#ffd700]`}></div>
                             <div className="w-1/2 flex justify-center items-center relative z-[100] max-sm:w-[100%]"  >
                             <Tilt>
-                                <div className="bg-[#fff] text-[#ffd700] rounded-lg shadow-lg p-2 ml-10 w-[500px]  max-sm:w-[100%]  max-sm:ml-0" style={{ border: "3px solid transparent", borderImage: `linear-gradient(to ${index % 2 == 0 ? 'right' : 'left'}, #ffd700, lightgreen)`, borderImageSlice: "1" }} >
+                                <div className="bg-[#fff] text-[#ffd700] rounded-lg shadow-lg p-2 ml-10 mr-10 max-sm:mr-0 w-[500px]  max-sm:w-[100%]  max-sm:ml-0" style={{ border: "3px solid transparent", borderImage: `linear-gradient(to ${index % 2 == 0 ? 'right' : 'left'}, #ffd700, lightgreen)`, borderImageSlice: "1" }} >
                                     <h3 className="font-bold text-[#ffd700]  text-[2.5rem]">{event.date}</h3>
                                     <p>{event.description}</p>
                                 </div>
