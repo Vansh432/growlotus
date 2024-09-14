@@ -1,5 +1,5 @@
 import { FaEnvelope, FaClipboardCheck, FaBullhorn, FaTag, FaBell, FaGift } from "react-icons/fa"; // Example icons
-
+import Tilt from 'react-parallax-tilt';
 const events = [
     {
         date: "2016",
@@ -66,26 +66,28 @@ export default function Timeline() {
     }
     return (<>
 
-        <div className="timeline-container py-10 text-white">
+        <div className  ="timeline-container py-10 text-white">
             <h1 className="text-[2rem] text-center text-[#000] font-bold  uppercase">Achivements </h1>
             <p className="mb-[50px] w-[85%] m-auto text-center text-[#575757]">Grow Lotus Fintech has consistently broken new ground in the fintech industry, setting benchmarks for innovation and customer service. Our early adoption of cutting-edge technologies has positioned us as leaders in the financial technology sector.</p>
             <div className="container mx-auto">
                 <div className="relative">
                     {/* Timeline Line */}
-                    <div className="absolute left-1/2 transform -translate-x-1/2 h-[101.1%] w-1 bg-gradient-to-b from-[#f5d546] to-[#ffd700]"></div>
+                    <div className="absolute left-1/2 transform -translate-x-1/2 h-[101.4%] max-sm:h-[97%] max-sm:top-[30px] w-1 bg-gradient-to-b from-[#f5d546] to-[#ffd700]"></div>
 
                     {events.map((event, index) => (
                         <div key={index} className={`mb-10 flex relative ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'} items-center w-full`}>
-                            <div className={`absolute h-[3px] w-[45%] ${index % 2 === 0 ? "left-[22%]" : "left-[29%]"} bg-[#ffd700]`}></div>
-                            <div className="w-1/2 flex justify-center items-center relative z-[100]" >
-                                <div className="bg-[#fff] text-[#ffd700] rounded-lg shadow-lg p-6 ml-10 w-[500px] " style={{ border: "3px solid transparent", borderImage: `linear-gradient(to ${index % 2 == 0 ? 'right' : 'left'}, #ffd700, lightgreen)`, borderImageSlice: "1" }} >
+                            <div className={`absolute h-[3px] w-[45%] max-sm:hidden ${index % 2 === 0 ? "left-[28%]" : "left-[32%]"} bg-[#ffd700]`}></div>
+                            <div className="w-1/2 flex justify-center items-center relative z-[100] max-sm:w-[100%]"  >
+                            <Tilt>
+                                <div className="bg-[#fff] text-[#ffd700] rounded-lg shadow-lg p-2 ml-10 w-[500px]  max-sm:w-[100%]  max-sm:ml-0" style={{ border: "3px solid transparent", borderImage: `linear-gradient(to ${index % 2 == 0 ? 'right' : 'left'}, #ffd700, lightgreen)`, borderImageSlice: "1" }} >
                                     <h3 className="font-bold text-[#ffd700]  text-[2.5rem]">{event.date}</h3>
                                     <p>{event.description}</p>
                                 </div>
+                                </Tilt>
                             </div>
-                            <div className="relative w-1/2 m-0 flex justify-center items-center z-[100]">
+                            <div className="relative w-1/2 m-0 flex justify-center items-center z-[100] max-sm:hidden">
                                 {/* Timeline Icon */}
-                                <div className="text-[3xl] left-[70%] transform -translate-x-1/2 bg-[#ffd700] p-4 rounded-full shadow-lg z-10 text-blue-900">
+                                <div className="text-[3xl] left-[70%] transform translate-x-1/2 bg-[#ffd700] p-4 rounded-full shadow-lg z-10 text-blue-900 max-sm:hidden">
                                     {event.icon}
                                 </div>
 
@@ -95,20 +97,20 @@ export default function Timeline() {
                 </div>
             </div>
             <div>
-            <div className="flex  justify-center  p-[20px] rounded-[10px] " style={{ border: "4px solid transparent", borderImage: `linear-gradient( #ffd700, lightgreen)`, borderImageSlice: "1" }}>
-            <div className="w-[50%] h-[100%] flex justify-center items-center">
+            <div className="flex  justify-center flex-wrap  p-[20px] rounded-[10px] " style={{ border: "4px solid transparent", borderImage: `linear-gradient( #ffd700, lightgreen)`, borderImageSlice: "1" }}>
+            <div className="w-[50%] max-sm:w-[100%] h-[100%] max-sm:h-fit flex justify-center items-center">
             <div>
-            <h1 className="text-[#000] text-[1.5rem] pl-[0px] font-[600] text-[#003c07] mb-[30px]">Awarded <span className="text-[3.5rem] text-[#ffd700] block leading-[60px]  "> Prestigious
+            <h1 className="text-[#000] max-sm:w-[100%] text-[1.5rem] pl-[0px] font-[600] text-[#003c07] mb-[30px] max-sm:text-[1rem] max-sm:mb-[10px]">Awarded <span className="text-[3.5rem] text-[#ffd700] block leading-[60px]   max-sm:text-[2rem] max-sm:leading-[32px] "> Prestigious
 Super Indian Award </span>
 <span className="font-[600]">Lucknow, Uttar Pradesh
 
 2023</span></h1>
-<p>In 2023, Grow Lotus Fintech was honored with the prestigious Super Indian Award in Lucknow, Uttar Pradesh. This recognition underscores the company's excellence and leadership in the fintech sector, celebrating its continuous innovation and dedication to making a positive impact on the financial landscape in India.
+<p className="max-sm:text-[.9rem]">In 2023, Grow Lotus Fintech was honored with the prestigious Super Indian Award in Lucknow, Uttar Pradesh. This recognition underscores the company's excellence and leadership in the fintech sector, celebrating its continuous innovation and dedication to making a positive impact on the financial landscape in India.
 </p>
 </div>
 </div>
-<div className="w-[50%] flex justify-end items-center">
-                <video  className="w-[90%] h-[350px] object-cover " controls src="https://growlotusfintech.com/wp-content/uploads/2024/07/WhatsApp-Video-2024-07-02-at-19.23.14_bd54e672.mp4">
+<div className="w-[50%] max-sm:w-[100%] flex justify-end items-center">
+                <video  className="w-[90%] max-sm:w-[100%] h-[350px] max-sm:h-[200px] object-cover " controls src="https://growlotusfintech.com/wp-content/uploads/2024/07/WhatsApp-Video-2024-07-02-at-19.23.14_bd54e672.mp4">
                
                 </video>
                 </div>

@@ -11,6 +11,10 @@
   justify-content: space-between;
   margin: 0 auto;
 }
+ion-icon{
+  font-size: 1.6rem;
+  color: #ffd700;
+}
 
 .footer-left {
   flex: 0 0 40%;

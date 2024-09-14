@@ -25,10 +25,20 @@ const Navbar = () => {
   const toggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen);
   };
-
+  const formdetails={
+    fullName: '',
+    phone: '',
+    city: '',
+    loantype: '',
+    loanAmount: '',
+    profile: '',
+    PINCode: '',
+    State: ''
+  
+  }
   return (
     <>
-      <Form show={isShowForm} isToggleForm={isToggleForm} startForm={1} />
+      <Form show={isShowForm} isToggleForm={isToggleForm} formRequierment={formdetails} formIndex={1} />
       <nav className="navbar">
         <div className="navbar-brand">
           <img src={growLogo} alt="logo" />

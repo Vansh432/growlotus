@@ -1,17 +1,8 @@
 import { useState } from "react";
 import './Form.css';
 
-const MultiStepForm = ({ show, isToggleForm }) => {
-  const [formData, setFormData] = useState({
-    fullName: '',
-    phone: '',
-    city: '',
-    loantype: '',
-    loanAmount: '',
-    profile: '',
-    PINCode: '',
-    State: ''
-  });
+const MultiStepForm = ({ show, isToggleForm, formRequierment,formIndex }) => {
+  const [formData, setFormData] = useState(formRequierment);
 
   const [errors, setErrors] = useState({});
   
@@ -54,25 +45,16 @@ const MultiStepForm = ({ show, isToggleForm }) => {
   const handleSubmit = (e) => {
 
     e.preventDefault();
-    if (validate()) {
-      console.log(e)
+
+      console.log(formRequierment)
       console.log('Form data submitted:', formData);
 
-      setFormData({
-        fullName: '',
-        phone: '',
-        city: '',
-        loantype: '',
-        loanAmount: '',
-        profile: '',
-        PINCode: '',
-        State: ''
-      });
+      setFormData();
       setErrors({});
       setTimeout(() => {
 
       }, 3000); // Hide the success message after 3 seconds
-    }
+    
   };
 
   const hideForm = () => {
@@ -84,27 +66,28 @@ const MultiStepForm = ({ show, isToggleForm }) => {
   }
 
   return (
-    <div id="formMainContainer" style={styles}>
-      <div className="form-container">
-        <h2 id="headerForm" >Apply For Loan</h2>
+    <div id="formMainContainer" style={styles} >
+      <div className={`form-container relative m-auto bg-[#fff] p-[20px] rounded-[8px]  ${formIndex==2?'w-[50%]':'w-[80%]'}`} >
+        <h2 id="headerForm" >{formIndex==2?"Finance Advice":"Apply For Loan"}</h2>
         <button className="cancelForm" onClick={hideForm}>
           &#10005;
         </button>
         <form onSubmit={handleSubmit} className="loan-form">
           {/* Form Fields */}
-          <div className="flex justify-between">
-            <div className="form-group">
+          <div className={`${formIndex==2?'block':'flex'}  justify-between`}>
+            <div className={`mb-[10px] ${formIndex==2?'w-[100%]':'w-[48%]'}`}>
               <label htmlFor="fullName">Full Name</label>
               <input
                 type="text"
                 id="fullName"
                 value={formData.fullName}
                 onChange={handleChange}
+                className={`${formIndex==2?'w-[100%]':''}`}
               />
               {errors.fullName && <p className="error-message">{errors.fullName}</p>}
             </div>
 
-            <div className="form-group">
+            <div  className={`mb-[10px] ${formIndex==2?'w-[100%]':'w-[48%]'}`}>
               <label htmlFor="phone">Phone Number</label>
               <input
                 type="tel"
@@ -116,7 +99,7 @@ const MultiStepForm = ({ show, isToggleForm }) => {
             </div>
           </div>
 
-          <div className="flex justify-between">
+          <div className={`flex justify-between ${formIndex==2?'hidden':''}`}>
             <div className="form-group">
               <label htmlFor="profile">Profile</label>
               <select
@@ -144,7 +127,7 @@ const MultiStepForm = ({ show, isToggleForm }) => {
             </div>
           </div>
 
-          <div className="flex justify-between">
+          <div className={`flex justify-between ${formIndex==2?'hidden':''}`}>
             <div className="form-group">
               <label htmlFor="city">City</label>
               <input
@@ -168,7 +151,7 @@ const MultiStepForm = ({ show, isToggleForm }) => {
             </div>
           </div>
           <div className="flex justify-between">
-            <div className="form-group" style={{ marginBottom: "40px" }}>
+            <div className={`form-group  ${formIndex==2?'hidden':''} `} style={{ marginBottom: "40px" }}>
               <label htmlFor="PINCode">PIN Code</label>
               <input
                 type="text"
@@ -178,7 +161,7 @@ const MultiStepForm = ({ show, isToggleForm }) => {
               />
               {errors.PINCode && <p className="error-message">{errors.PINCode}</p>}
             </div>
-            <div className="form-group">
+            <div className={`mb-[10px] ${formIndex==2?'w-[100%] ':'w-[48%]'}`}>
               <label htmlFor="loantype">Loan Type</label>
               <select
                 id="loantype"
@@ -197,7 +180,7 @@ const MultiStepForm = ({ show, isToggleForm }) => {
               {errors.loantype && <p className="error-message">{errors.loantype}</p>}
             </div>
           </div>
-          <div className="form-group w-[100%]" style={{ width: "80%", margin: 'auto' }}>
+          <div className={`form-group w-[100%] m-auto ${formIndex==2?'mt-[20px] mb-[10px]':''}`} style={{ width: "80%",}}>
             <button type="submit" className="submit-btn">
               Apply Now
             </button>

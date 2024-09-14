@@ -58,7 +58,7 @@ const WhyChoose = () => {
         </div>
         <div className="timeline-item flex justify-between items-center w-[100%]" style={{ paddingRight: "0px" }}>
         <div className="w-[48%] h-[279px] max-sm:hidden"> 
-            <img src={experts}  loading="lazy" className="w-[100%] h-[100%] object-cover rounded-[10px] max-sm:hidden"  alt="Expertise You Can Trust"/>
+            <img src={personalize}  loading="lazy" className="w-[100%] h-[100%] object-cover rounded-[10px] max-sm:hidden"  alt="Expertise You Can Trust"/>
           </div>
           <div className="content w-[48%] max-sm:w-[100%]" ref={card2}>
             <h3>
@@ -84,7 +84,7 @@ const WhyChoose = () => {
             </p>
           </div>
           <div className="w-[48%] h-[279px]  max-sm:hidden">
-            <img src={experts}  loading="lazy" className="w-[100%] h-[100%] object-cover rounded-[10px]  max-sm:hidden"  alt="Comprehensive Services"/>
+            <img src={compressive}  loading="lazy" className="w-[100%] h-[100%] object-cover rounded-[10px]  max-sm:hidden"  alt="Comprehensive Services"/>
           </div>
         </div>
         <div className="timeline-item  flex justify-between items-center w-[100%]" style={{ paddingRight: "0px" }}>

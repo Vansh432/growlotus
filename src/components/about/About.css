@@ -1,6 +1,6 @@
 /* About.css */
 .about-container {
-    background-image: url(../../assets/images/about.png);
+ 
     padding: 0px 70px;
     font-family: Arial, sans-serif;
     background-repeat: round;
@@ -34,11 +34,11 @@
   
   .about-sections {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     margin-top: 30px;
     width: 50%;
-    gap: 30px;
+    gap: 5px;
   }
   
   .section {
@@ -53,18 +53,18 @@
   }
   
   .section img {
-    width: 100px;
+    width: 70px;
     background-color: #ffd700;
-    padding: 22px;
+    padding: 15px;
     border-radius: 10px;
     margin-bottom: 15px;
-    height: 100px;
+    height: 70px;
   }
   
   .section h3 {
     color: #003C07;
     font-size: 18px;
-    margin-bottom: 15px;
+    
     font-weight: 700;
   }
   
@@ -73,7 +73,7 @@
     line-height: 30px;
     font-size: 15px;
     font-weight: 500;
-
+margin: 0;
   }
   
   .section ul {

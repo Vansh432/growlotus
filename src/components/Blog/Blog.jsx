@@ -1,9 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router-dom';
 import './Blog.css';
 import axios from 'axios';
-import parse from 'html-react-parser';
 
+import 'react-quill/dist/quill.snow.css'; // Import Quill's CSS for styling
 const Blog = () => {
   const navigate = useNavigate();
   const [blogs, setBlogs] = useState([]);
@@ -15,6 +21,7 @@ const Blog = () => {
       try {
         const response = await axios.get('https://growlotusfintech.in/growLotusMain/api/blogs');
         // Adjust this if the response data structure is different
+        console.table(response.data);
         setBlogs(response.data); 
       } catch (err) {
         setError('Failed to fetch blogs');
@@ -51,28 +58,32 @@ const Blog = () => {
   return (
     <div className="blog-container">
       {blogs.map((blog) => (
-        <div key={blog.id} className="blog-card">
-          <img src={`https://growlotusfintech.in/growadmin/storage/app/public/images/${blog.image}`} alt={blog.title} className="blog-image" />
-          <div className="content">
-            <div className="title">{truncateDescription(blog.title, 28)}</div>
-            <p className="description">
-              {parse(sanitizeHtml(blog.description))
-              
-              }
-            </p>
-          </div>
-          <div className="content">
-            <button
-              onClick={() => onReadMore(blog.id)}
-              className="read-more-button"
-            >
-              Read More
-            </button>
-          </div>
-        </div>
+        <Card sx={{ maxWidth: 345 }} style={{width:"300px"}}>
+      <CardMedia
+        sx={{ height: 180 }}
+        image={`https://growlotusfintech.in/growadmin/storage/app/public/images/${blog.image}`}
+        title="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {blog.title}
+        </Typography>
+        <Typography variant="body2" sx={{ color: 'text.secondary' }} >
+        Counter It was 7 minutes after midnight. The dog was lying on the grass in the middle of the lawn in front of Mrs Shears’ house. Its eyes were closed. It looked as if it was running on its side,
+        </Typography>
+      </CardContent>
+      <CardActions>
+     
+        <Button size="small" onClick={()=>{
+             onReadMore(blog.id);
+        }}>Learn More</Button>
+      </CardActions>
+    </Card>
       ))}
     </div>
   );
 };
 
 export default Blog;
+
+

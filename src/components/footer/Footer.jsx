@@ -65,9 +65,9 @@ const Footer = () => {
           
           <div className="information">
             <h3>INFORMATION</h3>
-           <NavLink to=""><p><span className="info-icon"><img src={call} alt="" /></span> 1800 180 1800</p></NavLink> 
-            <p><span className="info-icon"><img src={mail} alt="" /></span>Info @growlotusfintech.com</p>
-            <p id="addressOffice"><span className="info-icon"><img src={location} alt=""  width={"60px"}/></span>302, 3rd Floor, Global Foyer Mall
+           <NavLink to=""><p><span className="info-icon"><ion-icon name="call-outline"></ion-icon></span> 1800 180 1800</p></NavLink> 
+            <p><span className="info-icon"><ion-icon name="mail-outline"></ion-icon></span>Info@growlotusfintech.com</p>
+            <p id="addressOffice"><span className="info-icon"><ion-icon name="location-outline"></ion-icon></span>302, 3rd Floor, Global Foyer Mall
 Golf Course Road, Gurugram
 Haryana, India 122009</p>
           </div>

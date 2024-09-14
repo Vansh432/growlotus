@@ -44,9 +44,10 @@ function App() {
               <WhyChoose />
               <OurServices />
               <Achivement />
-            </div>
+       
             <About />
             <Testimonial />
+            </div>
           </>
         } />
         <Route path="/service" element={

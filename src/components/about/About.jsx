@@ -9,7 +9,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <h2>About</h2>
-            <p>
+            <p >
               Grow Lotus Fintech Private Limited (formerly known as S K
               Associate) is a leading financial advisory service specializing in
               loan and equity funds. With over 9 years of experience, we have
@@ -30,20 +30,11 @@ const About = () => {
               <img src={about1} alt="Mission icon" />
               <div>
               <h3>Our Mission</h3>
-              <p>
+              <p style={{lineHeight:"22px"}}>
                 We are committed to offering a wide range of products and
                 services in the financial services segment, focusing on:
               </p>
-              <ul>
-                <li>
-                  Maintaining the highest standards of quality at reasonable
-                  costs.
-                </li>
-                <li>
-                  Encouraging and rewarding superior performance among our
-                  employees.
-                </li>
-              </ul>
+           
               </div>
             </div>
 
@@ -51,7 +42,7 @@ const About = () => {
               <img src={about2} alt="Vision icon" />
               <div>
                 <h3>Our Vision</h3>
-                <p>
+                <p style={{lineHeight:"22px"}}>
                   To establish Grow Lotus Fintech Private Limited as a trusted
                   brand in the financial services sector.
                 </p>
@@ -62,21 +53,12 @@ const About = () => {
               <img src={about3} alt="Value icon" />
               <div>
               <h3>Our Value</h3>
-              <p>
+              <p style={{lineHeight:"22px"}}>
                 Our core values are centered around business ethics, consumer
                 focus, and corporate responsibility towards society. We uphold
                 these values through:
               </p>
-              <ul>
-                <li>
-                  Discipline: Training our employees to be disciplined before
-                  expecting the same from our customers.
-                </li>
-                <li>
-                  Fairness: Ensuring fairness in all dealings with customers,
-                  employees, and regulatory authorities.
-                </li>
-              </ul>
+            
               </div>
             </div>
           </div>
