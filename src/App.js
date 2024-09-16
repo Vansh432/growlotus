@@ -35,7 +35,7 @@ function App() {
       <div className="leftRightPadding" style={{boxShadow: "0 0 5px #9c9999",position:"fixed",width:"100%",background:"#fff",zIndex:"1000"}}>
         <Navbar /> 
       </div>
-      <IBC />
+      {/* <IBC /> */}
       <Routes>
         <Route path="/" element={
           <>

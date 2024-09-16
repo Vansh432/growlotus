@@ -7,9 +7,9 @@ import 'react-quill/dist/quill.snow.css'; // Use 'quill.bubble.css' for a minima
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
     <App />
-  </React.StrictMode>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

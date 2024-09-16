@@ -7,6 +7,7 @@ import JourneySection from "./JourneySection/JourneySection";
 import TeamSection from "./TeamSection/TeamSection";
 import FAQ from "./Faq/FAQ";
 import Subscription from "./Subscription/Subscription";
+import MD_Message from "./MD_Message/MD_Message";
 
 const AboutUss = () => {
   return (
@@ -19,6 +20,7 @@ const AboutUss = () => {
       
         <Statistics />
         <JourneySection />
+        <MD_Message />
         <TeamSection />
         <FAQ />
         <Subscription />
