@@ -1,15 +1,10 @@
-.service {
+.service,.service2  {
     display: flex;
     justify-content: space-between;
     background-color: #d3f4d1; 
-    height: 359px;
+    height: 300px;
   }
-.service2 {
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFC70033; 
-    height: 359px;
-  }
+
   
   .service-content {
     max-width: 50%;
@@ -23,6 +18,7 @@
     font-size: 35px;
     color: #003C07;
     font-weight: 700;
+    margin-bottom: 5px;
   }
   
   .get-started-btn {
@@ -64,7 +60,7 @@
   .services2 p{
     font-size: 16px;
     letter-spacing: 1.1px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 
   .service-image img {

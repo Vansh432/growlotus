@@ -46,11 +46,12 @@ import carbon_email from "./images/About/carbon_email.png";
 import email from "./images/Contact/email.png";
 import callContact from "./images/Contact/call.png";
 import office from "./images/Contact/office.png";
-import officeImage from "./images/Contact/officeImage.png";
+
 import mangagerPhoto from './images/managingdirector.webp'
 import experts from './images/Expertise You Can Trust.jpg'
 import personalize from './images/Personalized Approach.jpg'
 import compressive from './images/compressive.jpg'
+import officeImage from './images/office.jpg'
 export {
   BannerImage,
   growLogo,
@@ -100,8 +101,8 @@ export {
   email,
   callContact,
   office,
-  officeImage,
   experts,
   personalize,
-  compressive
+  compressive,
+  officeImage
 };

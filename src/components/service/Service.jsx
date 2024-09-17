@@ -47,8 +47,8 @@ const Service = () => {
   return (
     <>
     <Form show={isShowForm} isToggleForm={isToggleForm} formRequierment={formdetails}   formIndex={2}/>
-      <div className="mainServiceStart">
-        <div className="service">
+      <div className="mainServiceStart mt-[110px]" >
+        <div className="service" data-aos="fade-up">
           <div className="service-content services2">
             <h2 className="service-title ">Finance Advice</h2>
             <p ref={paragrap1}>
@@ -60,9 +60,9 @@ const Service = () => {
             <img src={service1} alt="Finance Advice" />
           </div>
         </div>
-        <div className="service2">
+        <div className="service2" data-aos="fade-up">
           <div className="service-content">
-            <div className="services2">
+            <div className="services2" >
               <h2 className="service-title">Cibil Score</h2>
               <p ref={paragrap2}>
                 Understand Your Credit Health and Take Control of Your Financial

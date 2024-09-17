@@ -1,6 +1,8 @@
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbar from "./components/navbar/Navbar.jsx";
 import Banner from "./components/banner/Banner.jsx";
 import Service from "./components/service/Service.jsx";
@@ -22,12 +24,21 @@ import Careers from "./components/Careers/Careers.jsx";
 import EmiCalulator from'./components/EmiCalculator/EmiCalc.js';
 import Privacy from './components/PrivacyPolicy/Privacy'
 import TermCondition from './components/Term&Condition/TermCondition.js'
-import Achivement from './components/Achivedment/Achivement.js'
+import Testimonials from "./components/Testimonials/Testimonials.js";
 
 
 function App() {
 
   const [successMessage, setSuccessMessage] = useState('');
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 800,
+      easing: "ease-out-cubic",
+      offset: 120,
+    });
+  }, []);
+
   return (
     <>
     <Router>
@@ -42,10 +53,9 @@ function App() {
               <Service />
               <EmiCalulator/>
               <WhyChoose />
+              <Testimonials/>
               <OurServices />
-              <Achivement />
-       
-            <About />
+      
             <Testimonial />
             </div>
           </>

@@ -1,0 +1,122 @@
+.testimonial-carousel {
+    min-width: 100%;
+
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-top: 110px;
+    margin-bottom: 120px;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+  }
+  
+  .carousel-content {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    /* width: 550px; */
+    box-shadow: 0 0 5px #ffd900bc;
+    transition: transform 0.5s ease;
+    overflow: hidden;
+    
+
+  }
+  .carousel-content::after{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #ffd900;
+    border-radius: 50%;
+    right:-75px;
+    bottom: -75px;
+    z-index: 1;
+    transition: all 1s;
+ 
+  }
+  .carousel-content:hover::after{
+    content: '';
+     transform: scale(10);
+  
+
+  }
+  .carousel-content:hover   .testimonial-text p:nth-child(1){
+     color: #ffff;
+  
+
+  }
+  .testimonial-img {
+    width: 280px;
+
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+    position: relative;
+    z-index: 10;
+    
+  }
+  
+  .testimonial-text {
+    position: relative;
+    z-index: 10;
+    width: 490px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  
+  .testimonial-text p:nth-child(1) {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 10px;
+
+    transition: all 0.8s;
+  }
+  
+  .testimonial-text h3 {
+    font-size: 1.2rem;
+    color: #003C07;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  button.prev, button.next {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  button.prev {
+    left: 10px;
+  }
+  
+  button.next {
+    right: 10px;
+  }
+  
+  button.prev:hover, button.next:hover {
+    background-color: #333;
+  }
+  

@@ -3,57 +3,6 @@ import { useParams } from "react-router-dom";
 import { IoMdCall } from "react-icons/io";
 import ServiceData from './service.json'
 import './Service.css'
-const serviceDetails = {
-  
-  "home-loan": {
-    title: "Home Loan",
-    image: "https://via.placeholder.com/400",
-    description:
-      "Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans.",
-  },
-  "personal-loan": {
-    image: "https://via.placeholder.com/400",
-    title: "Personal Loan",
-    description:
-      "Details on Personal Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans.",
-  },
-  "car-loan": {
-    title: "Car Loan",
-    image: "https://via.placeholder.com/400",
-    description:
-      "Explore Car Loan options. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans.",
-  },
-  "msme-loan": {
-    title: "MSME Loan",
-    image: "https://via.placeholder.com/400",
-    description:
-      "Support for Micro, Small and Medium Enterprises. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans.",
-  },
-  "unsecured-loan": {
-    title: "Unsecured Loan",
-    image: "https://via.placeholder.com/400",
-    description:
-      "Unsecured loan details. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans.",
-  },
-  "business-loan": {
-    title: "Business Loan",
-    image: "https://via.placeholder.com/400",
-    description:
-      "Grow your business with our loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans.",
-  },
-  "loan-against-property": {
-    title: "Loan Against Property",
-    image: "https://via.placeholder.com/400",
-    description:
-      "Details on Loans Against Property. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans.",
-  },
-  "used-car-loan": {
-    title: "Used Car Loan",
-    image: "https://via.placeholder.com/400",
-    description:
-      "Finance options for used cars. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans. Information about Home Loans.",
-  },
-};
 
 const ServiceDetail = () => {
   const { serviceName } = useParams();
@@ -159,6 +108,7 @@ const ServiceDetail = () => {
 
   return (
     <>
+    <div className="p-[0_13%]">
       <div className="pt-[80px]">
         {service ? (
           <>
@@ -168,25 +118,15 @@ const ServiceDetail = () => {
                 alt={service.title}
                 className="w-full max-h-[250px] object-cover"
               />
-              <p className="absolute inset-0 flex items-center justify-center text-white text-2xl font-bold bg-black bg-opacity-50 " style={{margin:0,textTransform:"uppercase"}}>
+              <p className="absolute inset-0 flex items-center justify-center text-white text-2xl
+               font-bold" style={{margin:0,textTransform:"uppercase"}}>
                 {service.title}
               </p>
             </div>
-            <div className="flex flex-col lg:flex-row gap-10 p-10 ml-12 lg:p-8 max-sm:ml-0 max-sm:p-[10px]">
-              <div className="flex flex-col lg:w-1/3">
-                <div className="bg-[#FFC700] text-center p-6 rounded-lg shadow-lg mb-6 h-90 lg:mb-0">
-                  <p className="text-white font-semibold text-[2rem] max-sm:text-[1.5rem] leading-[47px]">
-                    Get a Free Consultation
-                  </p>
-                  <IoMdCall className=" border rounded-full text-3xl bg-black mx-auto mt-2 p-2 text-[3rem]  bg-[#fff] text-[#FFC700]" style={{background:"#FFC700",color:"#fff"}}/>
-                  <p className="text-white text-sm mt-2 text-[1.05rem] tracking-[1px]">
-                    Call Anytime
-                  </p>
-                  <p className="text-white text-lg mt-1">( +91 ) 900 900 7352</p>
-                </div>
-
-                <div className="bg-gray-900 text-white p mt-[50px] max-sm:mt-0 rounded-lg shadow-lg pt-[20px]">
-                  <p className="text-xl text-white mb-4 text-[2rem] text-center mb-[30px]">
+            <div className=" gap-5 p-[0] mb-[30px] mt-[30px]  max-sm:ml-0 max-sm:p-[10px]">
+              <div className="flex mb-[30px] justify-between">
+                <div className="bg-gray-900 text-white  max-sm:mt-0 rounded-lg shadow-lg  pt-[20px] w-[30%]">
+                  <p className="text-xl text-white mb-4 text-[2rem] text-center mb-[30px] ">
                     Required Documents
                   </p>
                   {Object.keys(service.DocumentsRequired).map((type) => (
@@ -219,16 +159,16 @@ const ServiceDetail = () => {
                     </div>
                   ))}
                 </div>
-              </div>
-
-              <div className="flex flex-col mr-12 max-sm:mr-0 lg:w-2/3">
-                <div className=" mb-6">
+                <div className="w-[68%]">
                   <img
                     src={service.LoanImage}
                     alt={service.title}
-                    className="w-full h-[500px]  max-sm:h-[300px] object-cover rounded-lg shadow-lg"
+                    className="w-[100%]   max-sm:h-[300px] object-cover rounded-lg shadow-lg"
                   />
                 </div>
+              </div>
+
+              <div className="flex flex-col mr-12 max-sm:mr-0">
                 <div className="rounded-lg">
                  <h2 className="text-left text-[1.8rem] mb-0 font-[600] text-[#FFC700] tracking-[1px] uppercase ">{service.title}</h2>
                   <p className="m-0">{service.Description}</p>
@@ -350,11 +290,12 @@ const ServiceDetail = () => {
 </div>
             <div className="form-group w-[100%]" style={{width:"80%", margin:'auto'}}>
               <button type="submit" className="submit-btn">
-                Apply Now
+                Enquire Now
               </button>
             </div>  
           </form>
         </div>
+      </div>
       </div>
     </>
   );

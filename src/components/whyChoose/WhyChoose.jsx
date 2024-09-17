@@ -38,10 +38,10 @@ const WhyChoose = () => {
   }, []);
 
   return (
-    <div className="why-choose-us" style={{willChange: "transform, opacity"}}>
+    <div className="why-choose-us" style={{willChange: "transform, opacity",marginTop:"110px"}}>
       <h2 className="text-[2rem] text-center text-[#000] font-bold  uppercase">Why Choose Us</h2>
       <div className="timeline">
-        <div className="timeline-item flex justify-between items-center w-[100%]" style={{ paddingLeft: "0px" }}>
+        <div className="timeline-item flex justify-between items-center w-[100%] mb-[35px]" style={{ paddingLeft: "0px" }}>
           <div className="content w-[48%] max-sm:w-[100%]" ref={card1}>
             <h3>
               <span className="number">01</span>

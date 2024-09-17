@@ -10,11 +10,13 @@ import Intro from './Intro.js'
 const Servicepage = () => {
   return (
     <>
+    <div className="mb-10">
     <Header/>
     <ServiceDisciption/>
     <ImageSection/>
     <Intro/>
     <OurService/>
+    </div>
     </>
   );
 };

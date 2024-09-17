@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Card from './Card/Card';
 
 function Careers() {
   const [formData, setFormData] = useState({
@@ -81,19 +82,25 @@ function Careers() {
   };
 
   return (
-    <div className="flex  pb-[70px] pt-[30px] px-[10px] flex-wrap justify-center items-center">
-      <div className="flex justify-center items-center ">
+    <>
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+
+    <div className="flex justify-center items-center text-center">
         <div className="w-[90%] max-sm:w-[100%] text-left">
-          <p className="text-2xl mb-4">
+          <p className="text-2xl mb-4 text-center">
             Empower Your Career with <span className="text-[#FFC700]">At Grow Lotus</span>
           </p>
-          <p>
+          <p className="text-2xl mb-4 text-center">
             <span className="text-[#FFC700]">At Grow Lotus</span>, we believe that our people are our greatest asset...
           </p>
-          <p className="mt-4 font-semibold">Mobile/Phone No.: 1800 180 1800</p>
-          <p className="font-semibold">Email ID: Info@growlotusfintech.com</p>
         </div>
       </div>
+
+    <div className="flex  pb-[70px] pt-[30px] px-[10px] flex-wrap justify-center items-center">
+      
 
       <div className="p-6  w-[50%] max-sm:w-[100%] rounded-lg mt-[30px] shadow-lg mx-auto m-0" style={{margin:0}}>
         <h2 className="text-2xl font-bold mb-4 text-[#ffc804]">Join Our Team</h2>
@@ -181,6 +188,7 @@ function Careers() {
         </form>
       </div>
     </div>
+    </>
   );
 }
 
