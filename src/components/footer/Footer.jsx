@@ -1,15 +1,8 @@
 import React from 'react';
 import "./Footer.css";
-import { useEffect } from 'react';
 import { playstore , applestore , qrfooter , footerlogo , facebook , linkdin , insta, location, mail, call } from '../../assets/index.js';
-import { Link, NavLink,useLocation } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 const Footer = () => {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
   return (
     <>
     <footer className="footer">
@@ -52,6 +45,19 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
+        <div className="footer-right rightContentFooter">
+          
+          <div className="products">
+            <h3>Products</h3>
+           <NavLink to="/service/home-loan"> <p>Home Loan</p> </NavLink> 
+           <NavLink to="/service/personal-loan"> <p>Personal Loan</p> </NavLink>
+           <NavLink to="/service/car-loan"> <p>Car Loan</p> </NavLink>
+           <NavLink to="/service/business-loan"> <p>Business Loan</p> </NavLink>
+           <NavLink to="/service/msme-loan"> <p>MSME Loan</p> </NavLink>
+          </div>
+        </div>
+
         <div className="latest-blog rightContentFooter">
             <h3>LATEST BLOG</h3>
             <div className="blog-post">
@@ -60,18 +66,8 @@ const Footer = () => {
             <div className="blog-post">
               Why Diversification of Marketing Strategies is Vital in 2023
             </div>
-          </div>
-        <div className="footer-right rightContentFooter">
-          
-          <div className="information">
-            <h3>INFORMATION</h3>
-           <NavLink to=""><p><span className="info-icon"><ion-icon name="call-outline"></ion-icon></span> 1800 180 1800</p></NavLink> 
-            <p><span className="info-icon"><ion-icon name="mail-outline"></ion-icon></span>Info@growlotusfintech.com</p>
-            <p id="addressOffice"><span className="info-icon"><ion-icon name="location-outline"></ion-icon></span>302, 3rd Floor, Global Foyer Mall
-Golf Course Road, Gurugram
-Haryana, India 122009</p>
-          </div>
         </div>
+        
       </div>
     </footer>
     </>
