@@ -89,7 +89,8 @@ const Navbar = () => {
           {isDropdownOpen && (
               <div id="menu" className={`dropdown-menu ${isMobileMenuOpen?"serviceAtMobile":""}`} onClick={()=>{ setBankServicesOpen(false); setOtherServicesOpen(false); } }   onMouseLeave={()=>{
                   toggleDropdown(false);
-                
+                 setOtherServicesOpen(false);
+                  setBankServicesOpen(false);
                  }} >
                 {/* <NavLink to="/service/home-loan" onClick={toggleDropdown}>Home Loan</NavLink>
                 <NavLink to="/service/personal-loan" onClick={toggleDropdown}>Personal Loan</NavLink>
@@ -120,11 +121,13 @@ const Navbar = () => {
 
             {/* Bank & NBFC Services */}
             {isBankServicesOpen && (
-              <div id="menu" className={`bank-dropdown-menu ${isMobileMenuOpen?"serviceAtMobile":""}`} onMouseLeave={()=>{ toggleBankServices()
+              <div id="menu" className={`bank-dropdown-menu ${isMobileMenuOpen?"serviceAtMobile":""}`} onMouseLeave={()=>{ 
               toggleDropdown(false)
+              setBankServicesOpen(false)
               } }
                onMouseEnter={()=>{
                 toggleDropdown(true)
+                setBankServicesOpen(true);
                }}
                >
                 <NavLink to='service/personal-loan' onClick={()=>{
