@@ -57,7 +57,7 @@ const Navbar = () => {
             className="dropdown  max-sm:w-[100%]"
           
             onMouseEnter={()=> { toggleDropdown(true); setBankServicesOpen(false); setOtherServicesOpen(false); }}
-            onMouseLeave={()=> { toggleDropdown(true); setBankServicesOpen(false); setOtherServicesOpen(false); }}
+            onMouseLeave={()=> { toggleDropdown(false); setBankServicesOpen(false); setOtherServicesOpen(false); }}
           >
             <Link className="dropdown-toggle max-sm:p-0"   style={{display:"flex",alignItems:"center",padding:"0"}}>
               <span>Services </span><RiArrowDropDownLine className="drop-down-btn" />
@@ -152,9 +152,9 @@ toggleDropdown(false);
 
             {/*Other Services  */}
             {isOtherServicesOpen && (
-              <div id="menu" className={`other-services-dropdown-menu ${isMobileMenuOpen?"serviceAtMobile":""}`} onMouseLeave={()=>{ toggleBankServices()
+              <div id="menu" className={`other-services-dropdown-menu ${isMobileMenuOpen?"serviceAtMobile":""}`} onMouseLeave={()=>{ toggleOtherServices()
               toggleDropdown(false)
-              } } 
+              } }
               onMouseEnter={()=>{
                 toggleDropdown(true)
                }}>
