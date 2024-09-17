@@ -1,0 +1,306 @@
+:root {
+    --primary-theme-color: #FFC807;
+}
+
+.ibc-logo {
+    height: 50px;
+    min-width: 80px;
+    max-width: 80px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #FFC700;
+    z-index: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid gray;
+    border-radius: 25px 0px;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.ibc-background{
+    position: fixed;
+    width: calc(100%);
+    height: 100%;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ibc-logo:hover {
+    border-radius: 0px 25px;
+}
+
+.ibc-hidden {
+    display: none;
+}
+
+.ibc-show {
+    display: flex;
+}
+
+.ibc-form-container {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 501;
+    background-color: #fff;
+    max-height: 90vh;
+    width: auto;
+    /* padding: 30px; */
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.ibc-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: auto;
+    width: 100%;
+}
+
+.ibc-form h1 {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 600;
+    color: var(--primary-theme-color);
+}
+
+.ibc-form h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.ibc-form h4 {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.ibc-form h6 {
+    font-size: 12px;
+}
+
+.ibc-form span {
+    color: red;
+}
+
+.show-ibc-form {
+    display: flex;
+}
+
+.hide-ibc-form {
+    display: none;
+}
+
+.radioButton {
+    font-size: 12px;
+}
+
+.nextButton, .backButton {
+    width: 30%;
+    padding: 10px;
+    background-color: var(--primary-theme-color);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.nextButton:hover, .backButton:hover {
+    background-color: #FFB900;
+}
+
+button.nextButton, button.backButton {
+    min-width: 150px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.closeButton {
+    color: red;
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    top: 25px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFCA14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    &:hover{
+        transform:scale(1.1);
+    }
+}
+
+.first-form {
+    display: block;
+}
+
+.first-form label {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.first-form select {
+    width: 100%;
+}
+
+.personal-details-form {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.personal-details-buttons,.contactInfo-buttons,.bankInfo-buttons {
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button.backButton, button.nextButton {
+    width: 120px;
+    padding: 10px;
+    background-color: var(--primary-theme-color);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.backButton:hover, button.nextButton:hover {
+    background-color: #FFB900;
+}
+
+
+.contact-info-form {
+    display: none;
+    height: auto;
+    width: 40vw;
+}
+
+.bank-info-form {
+    display: none;
+}
+
+.checkBox {
+    display: flex;
+    justify-content: start;
+}
+
+.checkBox input {
+    display: flex;
+    left: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .ibc-logo {
+        bottom: 20px;
+        right: 20px;
+        font-size: 16px;
+        height: 40px;
+        max-width: 60px;
+    }
+
+    .ibc-form-container {
+        width: 90%;
+        padding: 20px;
+        max-height: 85vh;
+    }
+
+    .ibc-form h1 {
+        font-size: 18px;
+    }
+
+    .ibc-form h3,
+    .ibc-form h4,
+    .ibc-form h6 {
+        font-size: 12px;
+    }
+
+    .first-form select,
+    .contact-info-form input,
+    .bank-info-form input {
+        width: 100%;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nextButton {
+        width: 100%;
+    }
+
+    .contact-info-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ibc-form-container {
+        width: 75%;
+        padding: 40px;
+    }
+
+    .ibc-form h1 {
+        font-size: 18px;
+    }
+
+    .first-form select,
+    .contact-info-form input,
+    .bank-info-form input {
+        width: 80%;
+    }
+
+    .nextButton {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .ibc-form-container {
+        width: 50%;
+        padding: 60px;
+    }
+
+    .ibc-form h1 {
+        font-size: 20px;
+    }
+
+    .nextButton {
+        width: 30%;
+    }
+}

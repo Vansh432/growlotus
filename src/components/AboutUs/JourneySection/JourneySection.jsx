@@ -18,14 +18,9 @@ const JourneySection = () => {
     },
     {
       title: "Our Value",
-      description: "At Grow Lotus Fintech Private Limited, our values form the cornerstone of our business. We are committed to maintaining the highest standards of integrity in all our dealings, ensuring transparency and honesty guide our interactions. Our focus is always on our clients, prioritizing their needs and goals to provide personalized services that go above and beyond their expectations. We strive for excellence in every aspect of our work, from service delivery to customer care, continuously seeking ways to innovate and offer cutting-edge financial solutions. Collaboration and inclusivity are central to our approach, creating an environment where every team member is valued and empowered to contribute to our success. Additionally, we take our social and corporate responsibilities seriously, ensuring that our business practices positively impact our clients, employees, and the wider community.",
+      description: "At Grow Lotus Fintech Private Limited, we prioritize integrity, transparency, and client-focused service in all our business dealings. We strive to exceed client expectations with personalized solutions and continuously seek innovation in our financial offerings. Our collaborative and inclusive work environment empowers every team member to contribute to our success, while we remain committed to positively impacting our clients, employees, and the broader community through responsible business practices.",
       imageUrl: jou3,
-    },
-    {
-      title: "Managing Director's Message",
-      description: "Welcome to Grow Lotus Fintech Private Limited. Our mission is to help you achieve your financial goals with personalized solutions. With a focus on growth, innovation, and excellence, we are dedicated to guiding you through the complexities of financial planning. Our team is committed to providing exceptional service and building lasting relationships based on trust and integrity. Thank you for choosing us as your financial partner.",
-      imageUrl: mangagerPhoto,
-    },
+    }
   ];
 
   return (

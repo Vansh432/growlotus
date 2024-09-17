@@ -11,10 +11,6 @@
   justify-content: space-between;
   margin: 0 auto;
 }
-ion-icon{
-  font-size: 1.6rem;
-  color: #ffd700;
-}
 
 .footer-left {
   flex: 0 0 40%;
@@ -29,9 +25,7 @@ ion-icon{
   padding: 0 15px;
   flex-basis: 19%;
 }
-#addressOffice{
-  width: 253px;
-}
+
 .logo {
   width: 100px;
   margin-bottom: 15px;
@@ -47,7 +41,6 @@ ion-icon{
   margin-top: 13px;
 }
 .rightContentFooter{
-  padding-right: 0;
   padding-top: 43px;
 }
 .app-info,
@@ -78,7 +71,7 @@ ion-icon{
 
 .quick-links h3,
 .latest-blog h3,
-.information h3 {
+.products h3 {
   color: #003c07;
   margin-bottom: 50px;
   font-size: 15px;
@@ -131,13 +124,13 @@ ion-icon{
   color: #fff;
 }
 
-.information p {
+.products p {
   display: flex;
   line-height: 28px;
   color: #6e6868;
   font-size: 15px;
   font-weight: 500;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .info-icon {
@@ -241,7 +234,7 @@ ion-icon{
     height: 25px;
   }
   
-.information p {
+.products p {
   display: flex;
   flex-direction: column;
   color: #555;
