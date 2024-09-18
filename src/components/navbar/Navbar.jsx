@@ -160,6 +160,7 @@ toggleDropdown(false);
               } }
               onMouseEnter={()=>{
                 toggleDropdown(true)
+                setOtherServicesOpen(true)
                }}>
                 <NavLink to=''  onClick={toggleOtherServices} >Secured term Loan</NavLink>
                 <NavLink to=''  onClick={toggleOtherServices} >Project funding</NavLink>

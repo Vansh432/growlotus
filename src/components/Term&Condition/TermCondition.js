@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import ImageSection from "./ImageSection";
 
 export default function TermsAndConditions() {
+    useEffect(()=>{
+        window.scrollTo(0,0);
+      },[])
     return (
         <>
             <div className="terms">

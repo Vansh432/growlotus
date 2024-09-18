@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./Footer.css";
 import { playstore , applestore , qrfooter , footerlogo , facebook , linkdin , insta, location, mail, call } from '../../assets/index.js';
 import { Link, NavLink } from 'react-router-dom';
 const Footer = () => {
+
   return (
     <>
     <footer className="footer">
@@ -34,8 +35,9 @@ const Footer = () => {
               <Link to="/careers"> <li>Career</li></Link>
               <NavLink to="/termcondition"> <li>Term & Condition</li></NavLink>
               <NavLink to="/privacy"><li>Privacy Policy</li></NavLink>
+              <NavLink to="/return-policy"><li>Return Policy</li></NavLink>
             </ul>
-          </div>
+          </div>  
           <div className="connect">
             <h3>Connect With Us</h3>
             <div className="social-icons">

@@ -1,6 +1,9 @@
-
+import { useEffect } from "react";
 import ImageSection from "./ImageSection"
 export default function Privacy(){
+    useEffect(()=>{
+        window.scrollTo(0,0);
+      },[])
     return <>
         <div className="privacy">
         <ImageSection />

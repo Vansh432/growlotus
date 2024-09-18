@@ -77,26 +77,19 @@ const Testimonial = () => {
   };
 
   const testimonials = [
-    {
-      name: "Tom",
-      feedback: "It was a very good experience",
-      photo: testimonial1,
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. urpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu",
-    },
+
     {
       name: "Jane",
       feedback: "Great service and support.",
       photo: testimonial2,
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. urpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu",
+      content:"I had an excellent experience with Grow Lotus Fintech Pvt Ltd. Their team is incredibly knowledgeable and provided me with clear and concise advice on financial planning and investment strategies. The entire process was smooth, and they were always available to answer my queries promptly. I appreciate their customer-centric approach, ensuring that my needs were met with professionalism and care. I highly recommend Grow Lotus Fintech to anyone looking for reliable and expert financial services",
     },
     {
       name: "Alex",
       feedback: "Highly recommend their services.",
       photo: testimonial3,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. urpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu",
+       "I had an excellent experience with Grow Lotus Fintech Pvt Ltd. Their team is incredibly knowledgeable and provided me with clear and concise advice on financial planning and investment strategies. The entire process was smooth, and they were always available to answer my queries promptly. I appreciate their customer-centric approach, ensuring that my needs were met with professionalism and care. I highly recommend Grow Lotus Fintech to anyone looking for reliable and expert financial services",
     },
   ];
 

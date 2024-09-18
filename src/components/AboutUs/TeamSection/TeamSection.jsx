@@ -8,10 +8,7 @@ const TeamSection = () => {
     { name: 'Jone Smith', role: 'Project Manager', imageUrl: team2 },
     { name: 'Michel Jen', role: 'Founder & CEO', imageUrl: team3 },
     { name: 'Sarah Williams', role: 'Founder & CEO', imageUrl: team4 },
-    { name: 'David Brown', role: 'Head of Financial Planning', imageUrl: team5 },
-    { name: 'Rajesh Mehta', role: 'Senior Loan Advisor', imageUrl: team6 },
-    { name: 'Priya Kapoor', role: 'Tax Consultant', imageUrl: team7 },
-    { name: 'Jennifer Lee', role: 'Marketing Manager', imageUrl: team8 },
+   
   ];
 
   return (

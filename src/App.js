@@ -25,6 +25,7 @@ import EmiCalulator from'./components/EmiCalculator/EmiCalc.js';
 import Privacy from './components/PrivacyPolicy/Privacy'
 import TermCondition from './components/Term&Condition/TermCondition.js'
 import Testimonials from "./components/Testimonials/Testimonials.js";
+import ReturnPolicy from "./components/ReturnPolicy/Returnpolicy.js";
 
 
 function App() {
@@ -111,13 +112,14 @@ function App() {
             </div>
           </>
         } />
-         <Route path="/achivements" element={
+        <Route path="/return-policy" element={
           <>
             <div className="leftRightPadding leftContainer" style={{paddingTop:"90px"}}>
-            
+              <ReturnPolicy />
             </div>
           </>
         } />
+       
          <Route path="/careers" element={
           <>
             <div className="leftRightPadding leftContainer" style={{paddingTop:"90px"}}>

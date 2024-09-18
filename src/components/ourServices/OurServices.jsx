@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./OurServices.css";
 import {
   ourservice1,
@@ -48,6 +48,7 @@ const OurServices = () => {
         "Equity funding helps businesses grow by issuing new shares for cash investment, securing expansion funds without additional debt.",
     },
   ];
+
   return (
     <>
       <div className="our-services mt-[110px]" id="Services">

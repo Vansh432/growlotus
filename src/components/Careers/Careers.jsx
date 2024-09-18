@@ -88,13 +88,13 @@ function Careers() {
     <Card />
     <Card />
 
-    <div className="flex justify-center items-center text-center">
+    <div className="flex justify-center items-center text-center mt-[80px]">
         <div className="w-[90%] max-sm:w-[100%] text-left">
-          <p className="text-2xl mb-4 text-center">
+          <p className="text-3xl mb-4 text-center">
             Empower Your Career with <span className="text-[#FFC700]">At Grow Lotus</span>
           </p>
-          <p className="text-2xl mb-4 text-center">
-            <span className="text-[#FFC700]">At Grow Lotus</span>, we believe that our people are our greatest asset...
+          <p className="text-1.2rem mb-4 text-center">
+            <span className="text-[#FFC700]">At Grow Lotus</span>, we believe that our people are our greatest assets.
           </p>
         </div>
       </div>
