@@ -34,8 +34,8 @@ import jou1 from "./images/About/jou1.png";
 import jou2 from "./images/About/jou2.png";
 import jou3 from "./images/About/jou3.png";
 import jou4 from "./images/About/jou4.png";
-import team1 from "./images/About/team1.png";
-import team2 from "./images/About/team2.png";
+import team2 from "./images/About/business head.jpg";
+import team1 from "./images/About/teamleader.jpg";
 import team3 from "./images/About/team3.png";
 import team4 from "./images/About/team4.png";
 import team5 from "./images/About/team5.png";
@@ -47,7 +47,7 @@ import email from "./images/Contact/email.png";
 import callContact from "./images/Contact/call.png";
 import office from "./images/Contact/office.png";
 
-import mangagerPhoto from './images/managingdirector.webp'
+import mangagerPhoto from './images/team1.jpg'
 import experts from './images/Expertise You Can Trust.jpg'
 import personalize from './images/Personalized Approach.jpg'
 import compressive from './images/compressive.jpg'

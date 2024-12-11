@@ -4,10 +4,10 @@ import { team1, team2, team3, team4, team5, team6, team7, team8 } from '../../..
 
 const TeamSection = () => {
   const teamMembers = [
-    { name: 'John Doe', role: 'Founder & CEO', imageUrl: team1 },
-    { name: 'Jone Smith', role: 'Project Manager', imageUrl: team2 },
-    { name: 'Michel Jen', role: 'Founder & CEO', imageUrl: team3 },
-    { name: 'Sarah Williams', role: 'Founder & CEO', imageUrl: team4 },
+    { name: 'Shakti singh', role: 'Team Leader', imageUrl: team1 },
+    { name: 'Aarti chaudhary', role: 'Head Business', imageUrl: team2 },
+    { name: 'Shivani kumari', role: 'Founder & CEO', imageUrl: team3 },
+    { name: 'Sandhya kothari', role: 'Founder & CEO', imageUrl: team4 },
    
   ];
 
@@ -26,7 +26,7 @@ const TeamSection = () => {
       <div className="team-grid">
         {teamMembers.map((member, index) => (
           <div className="team-member" key={index}>
-            <img src={member.imageUrl} alt={member.name} className="team-images" />
+            <img src={member.imageUrl} alt={member.name} className={`team-images w-[151px] h-[151px] object-left-top`} />
             <h4>{member.name}</h4>
             <p>{member.role}</p>
           </div>

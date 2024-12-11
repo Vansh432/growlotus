@@ -1,21 +1,23 @@
 import React, { useState, useEffect } from 'react';
-
+import {team1,team5} from '../../assets/index'
 import './testimonial.css'
 
 const testimonials = [
   {
     id: 1,
     text: "What stood out the most was their commitment to customer satisfaction. They truly care about their clients and go above and beyond to ensure a positive experience. I would highly recommend Grow lotus to anyone in need of a loan. It's a reliable company you can trust.",
-    author: "Ruveyda Crutzen",
-    position: "Project Manager at Lorem Ipsum",
-    img: "/path/to/image.jpg"  // Replace with your image path
+    img:team1,
+    author: "Shakti Singh",
+    position: "Team Leader",
+
   },
   {
     id: 2,
     text: "What stood out the most was their commitment to customer satisfaction. They truly care about their clients and go above and beyond to ensure a positive experience. I would highly recommend Grow lotus to anyone in need of a loan. It's a reliable company you can trust.",
-    author: "John Doe",
-    position: "CEO at Example Company",
-    img: "/path/to/another-image.jpg"  // Replace with another image path
+    img:team5,
+    author: "Tannu",
+    position: "Service Executive ",
+  
   },
   // Add more testimonials as needed
 ];
@@ -48,7 +50,7 @@ const TestimonialCarousel = () => {
       <div className="carousel-container">
         <div className="carousel-content">
         <div className="testimonial-img">
-          <img src={'https://cdn.rareblocks.xyz/collection/bakerstreet/images/testimonials/4/avatar-female-big.png'} alt="Testimonial" width={"100%"} height={"100%"}/>
+          <img src={`${testimonials[currentIndex].img}`} alt="Testimonial" width={"100%"} height={"100%"} style={{width:"100%",height:"100%"}}/>
           </div>
           <div className="testimonial-text">
             <p>"{testimonials[currentIndex].text}"</p>
